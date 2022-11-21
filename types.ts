@@ -1,3 +1,13 @@
+// initialisng vairables with types in TS, helps avoid so many programm errors JS might usually ignore
+let age: number
+let myName: string
+let isOnline: boolean
+
+age = 25
+myName = "Jesse"
+isOnline = true
+
+// initialsing parameters with types as well
 function sum(num1: number, num2: number, isResult: boolean, text: string) {
     const result = num1 + num2
     if (isResult) {
